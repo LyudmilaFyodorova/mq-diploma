@@ -2,9 +2,13 @@
   margin: 0;
 }
 
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {}
+
+@media (max-width: 640px) and (orientation: landscape) {}
+
 .header_wrp {
   margin: auto;
-  width: 1170px;
+  min-width: 1170px;
 }
 
 .header {
@@ -407,7 +411,7 @@
 
 .button {
   border: none;
-  padding: 15 55;
+  padding: 15px 55px;
   margin: 21px 0 60px;
 
   width: 270px;
@@ -442,7 +446,7 @@
 
 .tag-item {
   list-style-type: none;
-  padding: 6px 14px;
+  padding: 6px 13px;
   display: inline-block;
   box-sizing: content-box;
   border: 3px solid #eeeeee;
@@ -611,7 +615,7 @@ sup {
 }
 
 .footer {
-  width: 1170px;
+  min-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 65px;
@@ -673,6 +677,7 @@ sup {
 }
 
 .copyright {
+  min-width: 1170px;
   margin-bottom: 41px;
   padding: 0;
   text-align: center;
@@ -700,7 +705,7 @@ sup {
 
 .close_button {
   position: relative;
-  right: -389px;;
+  right: -389px;
   top: -307px;
   width: 18px;
   height: 18px;
@@ -751,15 +756,15 @@ sup {
   box-sizing: border-box;
   width: 330px;
   height: 48px;
-  
+
   padding-left: 20px;
-  
+
   margin: 0;
-  
+
   border: none;
   outline: none;
   background-color: #f4f7f6;
-  
+
   font-family: open-sans;
   color: #333333;
   background-image: url("../svg/form-arrows.svg");
@@ -785,21 +790,21 @@ sup {
 }
 
 .radio-group-text::before {
-content:'';
-display: inline-block;
-vertical-align: middle;
-margin-right: 3px;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
 
-width: 15px;
-height: 15px;
+  width: 15px;
+  height: 15px;
 
-background-image: url("../svg/form-empty-circle.svg");
-background-repeat: no-repeat;
-background-position: center center;
-background-size: 15px;
+  background-image: url("../svg/form-empty-circle.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 15px;
 }
 
-.radio-btn:checked ~ .radio-group-text::before {
+.radio-btn:checked~.radio-group-text::before {
   background-image: url("../svg/form-circle.svg");
 }
 
@@ -808,23 +813,25 @@ background-size: 15px;
 }
 
 .input_textarea {
-width: 310px;
-height: 131px;
-resize: none;
-background-color: #f4f7f6;
-border: none;
-outline: none;
+  width: 310px;
+  height: 131px;
+  resize: none;
+  background-color: #f4f7f6;
+  border: none;
+  outline: none;
 
-padding-top: 20px;
-padding-left: 20px;
-font-family: open-sans;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: open-sans;
 }
 
 .input_textarea:focus {
   border: 1px solid #b59f5b;
 }
 
-.select, .radio-btns, .input_textarea {
+.select,
+.radio-btns,
+.input_textarea {
   margin-top: 12px;
 }
 

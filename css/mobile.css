@@ -1,0 +1,154 @@
+@media (max-width: 360px) {
+    .header {
+        background-image: url("../img/banner-mobile.jpg");
+        min-width: 360px;
+        margin-bottom: 45px;
+        min-height: 635px;
+    }
+
+    .header_wrp {
+        margin: auto;
+        min-width: 328px;
+        position: relative;
+        right: 0;
+        top: 180px;
+    }
+
+    .container {
+        min-width: 270px;
+        padding: 0 45px;
+    }
+
+    .header-logo {
+        width: 270px;
+    }
+
+    .menu-list {
+        display: none;
+        /*сделать бургер*/
+    }
+
+    .title {
+        font-size: 26px;
+        line-height: 36px;
+        min-width: 328px;
+        margin-top: 45px;
+    }
+
+    .trends_title,
+    .shop_title {
+        font-size: 16px;
+    }
+
+    .trends {
+        min-width: 360px;
+        flex-wrap: wrap;
+    }
+
+    .trend {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .trend:nth-child(n + 2) {
+        margin-left: 0;
+    }
+
+    .trend-name {
+        font-size: 16px;
+    }
+
+    .wrap {
+        min-width: 360px;
+        margin-bottom: 45px;
+        padding: 0 15px;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card-name {
+        font-size: 16px;
+    }
+
+    .card-text {
+        margin-left: 0;
+    }
+
+    .thumb {
+        margin-bottom: 15px;
+    }
+
+    .aside {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .field-search,
+    .field-email {
+        width: 330px;
+    }
+
+    .button {
+        width: 330px;
+    }
+
+    .shop {
+        min-width: 360px;
+        padding: 0 35px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .shop_item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .shop_item:nth-child(n + 2) {
+        margin-left: 0;
+    }
+
+    .footer {
+        min-width: 330px;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .socials {
+        min-width: 330px;
+    }
+
+    .copyright {
+        min-width: 360px;
+    }
+
+    .close_button {
+        position: relative;
+        right: -325px;
+        top: -284px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .popup_content {
+        width: 331px;
+        height: 546px;
+        position: absolute;
+    }
+
+    .select {
+        width: 280px;
+    }
+
+    .input_textarea {
+        width: 260px;
+    }
+}

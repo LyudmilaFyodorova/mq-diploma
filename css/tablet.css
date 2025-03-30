@@ -1,0 +1,132 @@
+@media (width: 768px) {
+
+    .header {
+        background-image: url("../img/banner-bg-tablet.jpg");
+        min-width: 768px;
+        /*min hegth проверить*/
+    }
+
+    .header_wrp {
+        margin: auto;
+        min-width: 600px;
+    }
+
+    .container {
+        min-width: 600px;
+        padding: 0 35px;
+    }
+
+    .menu-list {
+        display: none;
+        /*сделать бургер*/
+    }
+
+    .title {
+        min-width: 600px;
+        font-size: 40px;
+    }
+
+    .trends_title,
+    .shop_title {
+        font-size: 18px;
+    }
+
+    .trends {
+        min-width: 768px;
+        flex-wrap: wrap;
+    }
+
+    .trend {
+        width: calc(50% - 5px);
+        margin-bottom: 5px;
+    }
+
+    .trend-name {
+        font-size: 17px;
+    }
+
+    .trend:nth-child(n + 2) {
+        margin-left: 0px;
+    }
+
+    .trend:nth-of-type(2n + 2) {
+        margin-left: 5px;
+    }
+
+    .wrap {
+        min-width: 698px;
+        padding: 0 35px;
+        box-sizing: border-box;
+    }
+
+    .main {
+        width: 398px;
+    }
+
+    .card {
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+
+    .card-name {
+        font-size: 17px;
+    }
+
+    .thumb {
+        margin-bottom: 15px;
+    }
+
+    .card-text {
+        margin-left: 0;
+    }
+
+    .aside {
+        width: 270px;
+        margin-left: 0;
+    }
+
+    .shop {
+        min-width: 698px;
+        padding: 0 55px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .shop_item:nth-child(n + 2) {
+        margin-left: 0;
+    }
+
+    .shop_item:nth-of-type(2n + 2) {
+        margin-left: 150px;
+    }
+
+    .shop_item {
+        width: calc(50% - 130px);
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        min-width: 698px;
+        padding: 0 35px;
+    }
+
+    .socials {
+        min-width: 698px;
+    }
+
+    .copyright {
+        min-width: 698px;
+    }
+
+    .close_button {
+        position: relative;
+        right: -389px;
+        top: -312px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .popup_title {
+        font-size: 18px;
+    }
+}
