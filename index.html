@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tablet.css" @media (width: 768px)>
+  <link rel="stylesheet" href="css/mobile.css" @media (max-width: 360px)>
 </head>
-<link rel="stylesheet" href="css/style.css">
 
 <body>
   <header class="header">
@@ -432,7 +434,12 @@
     <article class="shop_item shop_item1">
 
       <div class="shop_item_content">
-        <img src="img\shop-item-desk1.jpg" class="shop_pic" alt="подушка">
+        <picture>
+          <source media="(width: 768px)" srcset="img\shop-item-tablet1.jpg">
+          <source media="(max-width: 360px)" srcset="img\shop-item-mobile1.jpg">
+          <img src="img\shop-item-desk1.jpg" class="shop_pic" alt="подушка">
+        </picture>
+
         <div class="shop_text">
           <div class="shop_content_text">
             <h3 class="shop_item_title">Подушки на диван</h3>
@@ -459,7 +466,12 @@
 
     <article class="shop_item shop_item2">
       <div class="shop_item_content">
-        <img src="img\shop-item-desk2.jpg" class="shop_pic" alt="кукла зайчик">
+        <picture>
+          <source media="(width: 768px)" srcset="img\shop-item-tablet2.jpg">
+          <source media="(max-width: 360px)" srcset="img\shop-item-mobile2.jpg">
+          <img src="img\shop-item-desk2.jpg" class="shop_pic" alt="кукла зайчик">
+        </picture>
+
         <div class="shop_text">
           <div class="shop_content_text">
             <h3 class="shop_item_title">Кукла «Зайчик»</h3>
@@ -482,7 +494,12 @@
 
     <article class="shop_item shop_item3">
       <div class="shop_item_content">
-        <img src="img\shop-item-desk3.jpg" class="shop_pic" alt="шестиугольная рамка">
+        <picture>
+          <source media="(width: 768px)" srcset="img\shop-item-tablet3.jpg">
+          <source media="(max-width: 360px)" srcset="img\shop-item-mobile3.jpg">
+          <img src="img\shop-item-desk3.jpg" class="shop_pic" alt="шестиугольная рамка">
+        </picture>
+
         <div class="shop_text">
           <div class="shop_content_text">
             <h3 class="shop_item_title">Шестиугольная рамка</h3>
@@ -554,14 +571,14 @@
       <div class="radio-groups">
         <span class="radio_title">Вы подписаны на e-mail рассылку?</span>
         <div class="radio-btns">
-          <div class="radio-group">
+          <label class="radio-group">
             <input class="radio-btn visually-hidden" type="radio" name="radio-group" checked>
             <span class="radio-group-text">Да</span>
-          </div>
-          <div class="radio-group">
+          </label>
+          <label class="radio-group">
             <input class="radio-btn visually-hidden" type="radio" name="radio-group">
             <span class="radio-group-text">Нет</span>
-          </div>
+          </label>
         </div>
       </div>
 
