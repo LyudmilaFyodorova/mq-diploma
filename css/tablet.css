@@ -1,38 +1,88 @@
-@media (width: 768px) {
+@media (min-width: 641px) and (max-width: 1200px) {
 
     .header {
         background-image: url("../img/banner-bg-tablet.jpg");
-        min-width: 768px;
-        /*min hegth проверить*/
+        width: 100%;
+        min-width: 641px;
+        max-width: 1200px;
     }
 
     .header_wrp {
         margin: auto;
-        min-width: 600px;
+        width: 100%;
+        min-width: 473px;
+        max-width: 1032px;
     }
 
     .container {
-        min-width: 600px;
+        min-width: 473px;
+        max-width: 1032px;
         padding: 0 35px;
+    }
+
+    .menu__button {
+        width: 25px;
+        height: 20px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        font-size: 25px;
+        position: relative;
+        text-indent: -9999px;
+        cursor: pointer;
+    }
+
+    .menu__button-label {
+        width: 100%;
+        height: 20%;
+        margin-top: -0.1em;
+        border-radius: 5px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+
+    .menu__button:before {
+        top: 0;
+    }
+
+    .menu__button:after {
+        bottom: 0;
+    }
+
+    .menu__button:before,
+    .menu__button:after {
+        content: "";
+        width: 100%;
+        height: 20%;
+        border-radius: 5px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
     }
 
     .menu-list {
         display: none;
-        /*сделать бургер*/
     }
 
     .title {
-        min-width: 600px;
+        min-width: 473px;
         font-size: 40px;
     }
 
     .trends_title,
     .shop_title {
         font-size: 18px;
+        width: 100%;
+        min-width: 641px;
+        max-width: 1200px;
     }
 
     .trends {
-        min-width: 768px;
+        width: 100%;
+        min-width: 641px;
+        max-width: 1200px;
         flex-wrap: wrap;
     }
 
@@ -53,14 +103,20 @@
         margin-left: 5px;
     }
 
+    .trend_text {
+        width: 100%;
+    }
+
     .wrap {
-        min-width: 698px;
+        width: 100%;
+        min-width: 571px;
+        max-width: 1130px;
         padding: 0 35px;
         box-sizing: border-box;
     }
 
     .main {
-        width: 398px;
+        min-width: 266px;
     }
 
     .card {
@@ -82,14 +138,15 @@
 
     .aside {
         width: 270px;
-        margin-left: 0;
+        margin-left: 35px;
     }
 
     .shop {
-        min-width: 698px;
+        width: 100%;
+        min-width: 571px;
+        max-width: 1130px;
         padding: 0 55px;
         flex-wrap: wrap;
-        box-sizing: border-box;
     }
 
     .shop_item:nth-child(n + 2) {
@@ -106,16 +163,22 @@
     }
 
     .footer {
-        min-width: 698px;
+        width: 100%;
+        min-width: 571px;
+        max-width: 1130px;
         padding: 0 35px;
     }
 
     .socials {
-        min-width: 698px;
+        width: 100%;
+        min-width: 571px;
+        max-width: 1130px;
     }
 
     .copyright {
-        min-width: 698px;
+        width: 100%;
+        min-width: 571px;
+        max-width: 1130px;
     }
 
     .close_button {
