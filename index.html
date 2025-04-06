@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/tablet.css" @media (width: 768px)>
-  <link rel="stylesheet" href="css/mobile.css" @media (max-width: 360px)>
+  <link rel="stylesheet" href="css/tablet.css" @media (min-width: 641px) and (max-width: 1200px)>
+  <link rel="stylesheet" href="css/mobile.css" @media (max-width: 640px)>
 </head>
 
 <body>
@@ -17,31 +17,35 @@
         <a href="#0">
           <img src="svg\noemi-logo.svg" class="header-logo" alt="logo">
         </a>
-        <nav class="menu">
-          <ul class="menu-list">
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">Главная</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">Посты</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">Статьи</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">Теги</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">Темы</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+        <button class="menu__button">
+          <span class="menu__button-label">открыть меню</span>
+        </button>
       </div>
-      <h1 class="title">Блог о творчестве, спорте, <br>
-        и образе жизни</h1>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a class="menu-link" href="#0">Главная</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link" href="#0">Посты</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link" href="#0">Статьи</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link" href="#0">Теги</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link" href="#0">Темы</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link" href="#0">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="title">Блог о творчестве, спорте, <br>
+      и образе жизни</h1>
     </div>
   </header>
   <h2>
