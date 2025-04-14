@@ -1,4 +1,5 @@
-@media (max-width: 640px) {
+@media (max-width: 640px) and (orientation: landscape) {
+
     .header {
         background-image: url("../img/banner-mobile.jpg");
         max-width: 640px;
@@ -95,12 +96,16 @@
     }
 
     .trend {
-        width: 100%;
+        width: calc(50% - 5px);
         margin-bottom: 5px;
     }
 
     .trend:nth-child(n + 2) {
         margin-left: 0;
+    }
+
+    .trend:nth-of-type(2n + 2) {
+        margin-left: 5px;
     }
 
     .trend-name {
