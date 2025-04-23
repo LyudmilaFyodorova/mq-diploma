@@ -20,7 +20,15 @@
         padding: 0 35px;
     }
 
-    .menu__button {
+    .menu {
+        display: none;
+      }
+      
+      .menu__button:has(:checked) + .menu {
+        display: block;
+      }
+      
+      .menu__button {
         width: 25px;
         height: 20px;
         border: none;
@@ -30,9 +38,9 @@
         position: relative;
         text-indent: -9999px;
         cursor: pointer;
-    }
-
-    .menu__button-label {
+      }
+      
+      .menu__button-label {
         width: 100%;
         height: 20%;
         margin-top: -0.1em;
@@ -41,18 +49,18 @@
         position: absolute;
         left: 0;
         top: 50%;
-    }
-
-    .menu__button:before {
+      }
+      
+      .menu__button:before {
         top: 0;
-    }
-
-    .menu__button:after {
+      }
+      
+      .menu__button:after {
         bottom: 0;
-    }
-
-    .menu__button:before,
-    .menu__button:after {
+      }
+      
+      .menu__button:before,
+      .menu__button:after {
         content: "";
         width: 100%;
         height: 20%;
@@ -60,11 +68,7 @@
         background-color: #ffffff;
         position: absolute;
         left: 0;
-    }
-
-    .menu-list {
-        display: none;
-    }
+      }
 
     .title {
         min-width: 473px;
@@ -95,12 +99,8 @@
         font-size: 17px;
     }
 
-    .trend:nth-child(n + 2) {
+    .trend1, .trend3 {
         margin-left: 0px;
-    }
-
-    .trend:nth-of-type(2n + 2) {
-        margin-left: 5px;
     }
 
     .trend_text {
@@ -150,18 +150,15 @@
         box-sizing: border-box;
     }
 
-    .shop_item:nth-child(n + 2) {
-        margin-left: 0;
-    }
-
-    .shop_item:nth-of-type(2n + 2) {
-        margin-left: 70px;
-    }
-
     .shop_item {
         width: calc(50% - 70px);
         margin-bottom: 50px;
+        margin-left: 70px;
     }
+
+    .shop_item1, .shop_item3 {
+        margin-left: 0;
+      }
 
     .shop_item_content {
         width: 100%;
