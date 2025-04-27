@@ -74,6 +74,7 @@
         background-color: #ffffff;
         position: absolute;
         left: 0;
+        display: block;
       }
 
     .title {

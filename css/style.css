@@ -83,6 +83,10 @@
   text-decoration: underline;
 }
 
+.menu__button {
+  display:none;
+}
+
 .title {
   min-width: 1170px;
   padding: 0 15px;

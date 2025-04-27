@@ -45,6 +45,7 @@
         cursor: pointer;
         top: 30px;
         right: 15px;
+        display: block;
       }
       
       .menu__button-label {
