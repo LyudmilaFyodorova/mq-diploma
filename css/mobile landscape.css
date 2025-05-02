@@ -41,7 +41,7 @@
         padding: 0;
         background-color: transparent;
         font-size: 25px;
-        position: relative;
+        position: fixed;
         text-indent: -9999px;
         cursor: pointer;
       }

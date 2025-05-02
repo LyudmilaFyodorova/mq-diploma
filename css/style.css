@@ -11,7 +11,7 @@
   background-image: url("../img/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 1660px;
+  min-width: 1200px;
   min-height: 400px;
   background-color: #000000;
 
@@ -109,7 +109,7 @@
   font-weight: bold;
   text-align: center;
   display: block;
-  min-width: 1660px;
+  min-width: 1200px;
   width: 100%;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .trends {
-  min-width: 1660px;
+  min-width: 1200px;
   display: flex;
   margin-bottom: 65px;
 }
@@ -159,13 +159,14 @@
 
 .trend_text {
   border: 3px solid #b59f5b;
-  padding: 35px;
+  padding: 35px 30px;
   margin: 130px 20px 15px 20px;
   box-sizing: border-box;
 }
 
 .trend {
   margin-left: 5px;
+  box-sizing: border-box;
 }
 
 .trend1 {
@@ -242,17 +243,17 @@
   color: inherit;
 }
 
-.card-tag-items {
+.card-tag-items, .trend-tag-items {
   list-style-type: none;
   display: flex;
   padding: 0;
 }
 
-.card-tag-item {
-  padding-left: 20px;
+.card-tag-item, .trend-tag-item {
+  padding-right: 20px;
 }
 
-.card-tag-item1 {
+.card-tag-item1, .trend-tag-item1 {
   padding-left: 0;
 }
 

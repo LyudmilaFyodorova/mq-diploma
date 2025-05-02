@@ -105,6 +105,20 @@
         width: 100%;
     }
 
+    .trend-tag-item {
+        display: block;
+    }
+
+    .trend-tag-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .trend_text {
+    padding: 35px 15px;
+    margin: 130px 2px 15px 2px;
+    }
+
     .wrap {
         width: 100%;
         min-width: 571px;
