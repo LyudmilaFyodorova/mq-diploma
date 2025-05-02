@@ -5,15 +5,17 @@
 .header_wrp {
   margin: auto;
   max-width: 1170px;
+  box-sizing: border-box;
 }
 
 .header {
   background-image: url("../img/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 1200px;
+  min-width: 100%;
   min-height: 400px;
   background-color: #000000;
+  box-sizing: border-box;
 
   color: #ffffff;
 
@@ -46,6 +48,7 @@
   justify-content: space-between;
   align-items: flex-start;
   font-family: open-sans;
+  box-sizing: border-box;
 }
 
 .header-logo {
@@ -126,7 +129,7 @@
 }
 
 .trends {
-  min-width: 1200px;
+  min-width: 100%;
   display: flex;
   margin-bottom: 65px;
 }
@@ -551,7 +554,7 @@ sup {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
-  padding: 0 15px;
+  padding: 0 35px;
   display: flex;
 }
 
@@ -570,7 +573,7 @@ sup {
 }
 
 .shop_item {
-  margin-left: 130px;
+  margin-left: 110px;
 }
 
 .shop_item1 {
